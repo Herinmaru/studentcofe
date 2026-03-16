@@ -43,7 +43,7 @@ def calculate_median_coffee(data):
         med = median(spends)
         result.append([name, round(med, 2)])
     
-    # Сортируем по убыванию
+    
     result.sort(key=lambda x: x[1], reverse=True)
     
     return result
